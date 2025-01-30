@@ -1,0 +1,168 @@
+.size{
+    margin:20px 140px 20px 140px;
+}
+
+.quicksand-font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .display-flex{
+    display: flex;
+  }
+  .title{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+ .nav-item{
+    list-style: none;
+    margin-right: 32px;
+ }
+ .navbar{
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+ .nav-link-1{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: orange;
+ }
+ .nav-link-2{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: skyblue;
+ }
+ .nav-link-3{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #05D4DF;
+ }
+ .nav-link-4{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #5D58EF;
+ }
+ .btn-1{
+    width: 197px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: orange;
+    border-radius: 12px;
+    padding: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    border: none;
+ }
+ .banner{
+    justify-content: space-between;
+    gap: 50px;
+    
+ }
+ .banner-description{
+    font-size: 1.2rem;
+ }
+ .banner-size{
+    width: 640px;
+    height: 331px;
+ }
+ .banner-title{
+    font-size: 3.2rem;
+    font-weight: bold;
+ }
+ .cl-1{
+    color: orange;
+ }
+ .cl-2{
+    color: skyblue;
+ }
+ .btn-2{
+    border: none;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: black;
+ }
+ .banner-img{
+    width: 468px;
+    height: 575px;
+ }
+ .main-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+ }
+ .curriculum-1{
+    border: 1px solid white;
+    border-radius: 19px;
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(180deg,#DEF5FF,white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .curriculum-2{
+    border: 1px solid white;
+    border-radius: 19px;
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(#FFF4DC,white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }
+ .curriculum-3{
+    border: 1px solid white;
+    border-radius: 19px;
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(#F2E8FF,white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }
+ .curriculum-description{
+    font-size: 1rem;
+    color: #808080;
+ }
+ .curriculum-tag-1{
+font-size: 1rem;
+color: #64C8FF;
+ }
+ .curriculum-tag-2{
+    font-size: 1rem;
+    color: #F0AA00;
+ }
+ .curriculum-tag-3{
+    font-size: 1rem;
+    color: #8700FF;
+ }
+ .logo{
+    padding:52px 115px 30px 115px ;
+ }
+ .curriculum-container{
+    justify-content: space-between;
+    background-image: url(../assets/bg.png);
+ }
+ .button{
+   text-align: center;
+   padding-top: 40px;
+ }
+ .btn-3{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: orange;
+    border: none;
+    
+ }
