@@ -266,3 +266,127 @@ color: #64C8FF;
    font-weight: bold;
    color: white;
  }
+ .footer-container{
+   display: flex;
+   justify-content: space-between;
+ 
+   align-items: center;
+ }
+ .footer-img{
+   width:88px ;
+   height: 90px;
+   padding-top: 45px;
+ }
+ .footer{
+   width: 1940px;
+   height: 519px;
+   padding-top: 20px;
+   background-color:#01ACFD ;
+ }
+ .footer-title{
+   font-size: 2.8rem;
+   font-weight: bold;
+   color: white;
+ }
+ .footer-description{
+   font-size: 1.2rem;
+   font-weight: 400;
+   color: white;
+ }
+ .footer-title1{
+   color: white;
+   font-size: 1.5rem;
+   font-weight: bold;
+ }
+.footer-title2{
+   font-size: 1.6rem;
+   font-weight: bold;
+   color: white;
+}
+.about-item{
+   list-style: none;
+}
+.about-list{
+   display: grid;
+   margin-left:  -38px;
+   gap: 20px;
+}
+.about-item-1{
+   text-decoration: none;
+   font-size: 1rem;
+   font-weight: 400;
+   color: white;
+}
+.about-item-2{
+   text-decoration: none;
+   font-size: 1rem;
+   font-weight: 400;
+   color: white;
+}
+.about-item-3{
+   text-decoration: none;
+   font-size: 1rem;
+   font-weight: 400;
+   color: white;
+}
+.about-item-4{
+   text-decoration: none;
+   font-size: 1rem;
+   font-weight: 400;
+   color: white;
+}
+@media screen and (max-width:576px) {
+   .navbar{
+      display: grid;
+      margin-left: -125px;
+   }
+   .nav-title{
+      display: none;
+   }
+   .nav-links{
+      display: none;
+   }
+   .btn-1{
+      display: none;
+   }
+   .banner{
+      display: grid;
+      grid-template-rows: auto auto;
+      margin-left: -130px;
+   }
+   .banner-img{
+      
+      order: -1;
+   }
+   .banner-title{
+   
+      font-size: 2.9rem;
+   }
+   .btn-2{
+      margin-left: 100px;
+     
+   }
+   .curriculum-container{
+      flex-direction: column;
+      align-items: center;
+      
+   }
+   .button{
+      display: none;
+   }
+   #box-1{
+      display: none;
+   }
+   .box{
+   
+      margin-left: -300px;
+}
+.footer{
+   height: 800px;
+}
+.footer-container{
+  display: grid;
+  margin-left: -2px;
+   
+}
+}
